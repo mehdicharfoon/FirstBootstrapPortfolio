@@ -1,0 +1,36 @@
+
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    margin-bottom: 0px;
+
+}
+h1 {
+    color: yellow;
+    font-family: 'Lobster', cursive;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.row-content {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+.h5 {
+    color: yellowgreen;
+}
+.site-footer {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+
