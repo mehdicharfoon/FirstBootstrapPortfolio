@@ -27,13 +27,25 @@ h1 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0; }
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
 .card-body {
     background-image: linear-gradient(to right, #120e22, #0d0e14, #1e161f);
     color: white;
     
 }
+.img {
+    margin-top: 0px;
+}
+.header 
+    {
+        background-image: url("mehdilogo.png");
+        background-color: #cccccc;
+       }
 
 
 
