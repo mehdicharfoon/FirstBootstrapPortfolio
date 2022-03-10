@@ -1,5 +1,4 @@
 
-
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
@@ -9,7 +8,7 @@
 
 }
 h1 {
-    color: yellow;
+    color: #FFD700;
     font-family: 'Lobster', cursive;
 }
 
@@ -22,8 +21,8 @@ h1 {
     margin-right: 0px;
 }
 
-.h5 {
-    color: yellowgreen;
+.h5, h3 {
+    color: #FFD700;
 }
 
 .site-footer {
@@ -46,9 +45,3 @@ h1 {
         background-image: url("mehdilogo.png");
         background-color: #cccccc;
        }
-
-
-
-
-
-
