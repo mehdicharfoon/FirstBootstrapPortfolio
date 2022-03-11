@@ -1,4 +1,6 @@
 
+
+
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
@@ -12,7 +14,13 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
-
+.card-deck {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
 .row-content {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
