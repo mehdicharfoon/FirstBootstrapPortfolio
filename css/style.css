@@ -1,8 +1,8 @@
 
 
 
-.jumbotron {
-    padding: 30px;
+.jumbotron-fluid {
+    padding: 20px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
     margin-bottom: 0px;
@@ -52,4 +52,14 @@ h1 {
     {
         background-image: url("mehdilogo.png");
         background-color: #cccccc;
+        height: auto;
        }
+.nav {
+    margin-top: 0px;
+}
+header 
+
+ .img  {
+    margin-bottom: 0px;
+
+}
