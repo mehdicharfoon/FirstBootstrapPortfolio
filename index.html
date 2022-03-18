@@ -138,6 +138,17 @@
         <input class="form-control form-control-lg" type="text" placeholder="Enter an address, neighborhood, city, or ZIP code">
     </div>
   </div>
+  <div class="row row-content justify-content-center">
+    <div class="col-3">
+        <img src="image/housesmall.jpg" alt="">
+    </div>
+  </div>
+  <div class="row row-content justify-content-center">
+    <div class="col-6">
+      <p class="font-weight-bolder text-warning"><span class="span">mahdouch chorfi</span> are continuously working to improve the accessibility of our web experience for everyone,
+       and we welcome feedback and accommodation requests. If you wish to report an issue or seek an accommodation, <a href="#">please let us know.</a></p>
+    </div>
+  </div>
 </div>
 
 <!--Footer-->
@@ -157,7 +168,19 @@
     </div>
 </footer>
 
+<script>
+  const el = document.querySelector('span');
+  el.addEventListener('mouseover', makeBlue);
+  el.addEventListener('mouseout', makeYellow);
   
+  function makeBlue() {
+      el.style.background = 'blue';
+  }
+  function makeYellow() {
+      el.style.background = 'yellow';
+  }
+  
+  </script>
 
    
 
@@ -167,5 +190,6 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
+
 
 </html>

@@ -18,7 +18,7 @@ h1 {
     margin-bottom: 0px;
     margin-right: 0px;
 }
-.row {
+.row-content {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
@@ -49,3 +49,6 @@ h1 {
     margin-bottom: 0px;
     margin-right: 0px;
 }
+a:hover {
+    color: #FFD700;
+  }
