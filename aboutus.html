@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     
         <!-- Additional CSS must be placed after Bootstrap CSS -->
+      
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,16 +21,23 @@
    
 
 <body>
-    <header>
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <div class="row">
-                 <h1 class="col-sm-4 align-self-start font-weight-bold">BEST HOUSE</h1>
-            </div>
-    </header>
+  <!--Header-->
+  <header>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-4 align-self-start font-weight-bold">
+            <h1>BEST HOUSE</h1>
+            <h2><span class="badge badge-secondary">Find Your Place</span></h2>
           </div>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+          <div class="col-4 col-sm-3 col-md-2 align-self-end">
+             <img src="image/mehdilogo.png" class="img-fluid" />
+          </div>
+            
+        </div>
+</header>
+<!--navBar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-3">
     
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,7 +52,7 @@
             <a class="nav-link" href="buy.html">BUY<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="rent.html">RENT <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">RENT <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="sell.html">SELL <span class="sr-only">(current)</span></a>
@@ -53,30 +61,85 @@
             <a class="nav-link" href="#">ABOUT US<span class="sr-only">(current)</span></a>
           </li>
         </ul>
-        
+        <button type="button" class="btn btn-primary text-dark" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Sign in</button>
       </div>
+    
     </nav>
-    <div>
-      <img src="image/housepicc.jpeg" class="img-fluid" alt="...">
+    <!--Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sign in</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+            </form>
+          </div>
+          
+        </div>
+      </div>
     </div>
+      
+<div class="container-fluid">
+    <div class="row row-content justify-content-center"">
+      <div class="col-sm-4">
+        <h3>ABOUT US</h3>
+        <h2>Real Estate & Homes For Sale</h2>
+      </div>
+    </div>
+    <div class="row row-content justify-content-center"">
+      <div class="col-sm-10">
+      <p>Guiding you through your real estate journey
+      expert advice, reviews of service providers, and data-driven research help  make smarter real estate decisions each year. No matter where you are in your real estate journey, We can help you reach your goals.
+        
+        We also help over 30,000 people a year find the right real estate agent for their needs. How do we do it? We negotiate discounted rates with top-producing agents nationwide. We make it easy to compare and interview several agents to find the one that's right for you. And our Concierge Team stays in touch from start to close to make sure everything goes smoothly.
+        
+        To date, we've helped our customers save more on realtor fees, without compromising on service or experience.</p>
+      </div>
+    </div>
+   
+    <div class="row row-content justify-content-center"">
+      <div class="col-sm-4">
+          <img src="image/maps.webp"  class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+<!--Footer-->
+
     <footer class="site-footer">
       <div class="container">
-        <div class="row justify-content-md-center">             
-              
-             
-              <div class="col col-sm-8 text-center">
-                  
+          <div class="row justify-content-md-center">             
                 
-                  <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram fa-3x fa-light"></i></a>
-                  <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook fa-3x"></i></a>
-                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-3x"></i></a>
-                  <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-3x"></i></a>
-                  
-              </div>
-             
-         </div>
+               
+                <div class="col col-sm-8 text-center">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram fa-2x fa-light"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-2x"></i></a>
+                </div>
+           </div>
+  
       </div>
   </footer>
+             
+              
+             
+        
 
   
 
